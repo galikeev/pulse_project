@@ -38,6 +38,28 @@
     }
     .title {
         font-size: 25px;
+        &_left {
+            text-align: center;
+        }
+    }
+    .consultation {
+        padding: 50px 0 45px 0;
+        min-height: 0;
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: auto;
+        align-items: center;
+        input {
+            width: 300px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 300px;
+        }
     }
 }
 @media (max-width: 576px) {
@@ -48,25 +70,80 @@
         &__phone {
             font-size: 15px;
         }
+    }
     .button {
         width: 130px;
         height: 20px;
         font-size: 10px;
-    }
+        &_main {
+            width: 180px;
+            height: 35px;
+        }
     }
     .promo {
-        &__wrapper {
-            display: block;
-            
-        }
         &__header {
-            font-size: 30px;
+            font-size: 25px;
+            text-align: center;
         }
         &__subheader {
-            font-size: 15px;
+            font-size: 13px;
+            text-align: center;
         }
         &__icons {
+            display: block;
             width: auto;
+            margin-top: 20px;
+        }
+        &__icon {
+            width: auto;
+            font-size: 11px;
+            img {
+                margin-top: 40px;
+            }
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            display: block;
+            margin: 0;
+        }
+        &__item {
+            width: auto;
+            margin-top: 50px;
+        }
+        &__subtitle {
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 13px;
+        }
+    }
+    .title {
+        font-size: 20px;
+        &_left {
+            font-size: 18px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .feed-form {
+        input {
+            width: 200px;
+            height: 40px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 200px;
+            height: 40px;
         }
     }
 }
