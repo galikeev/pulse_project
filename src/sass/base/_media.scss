@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .container {
         padding: 0 25px
     }
@@ -7,8 +7,26 @@
             padding: 0 10px;
         }
     }
+    .carousel {
+        .slick-dots {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .slick-dots button {
+            border: none;
+            border-radius: 50%;
+            font-size: 0;
+            width: 15px;
+            height: 15px;
+            background-color: #757575;
+        }
+        .slick-active button {
+            background-color: #000
+        }
+    }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header {
         justify-content: space-around;
         &__official {
@@ -61,8 +79,14 @@
             width: 300px;
         }
     }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 100%;
+        }
+    }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .header {
         &__contacts {
             padding-left: 10px;
@@ -144,6 +168,12 @@
         &_submit {
             width: 200px;
             height: 40px;
+        }
+    }
+    .carousel {
+        .slick-dots button {
+            width: 10px;
+            height: 10px;
         }
     }
 }
