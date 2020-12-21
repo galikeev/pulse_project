@@ -285,4 +285,21 @@
             height: 250px;
         }
     }
+    .modal {
+        width: 260px;
+        min-height: auto;
+        padding: 15px;
+        &__close {
+            font-size: 30px;
+            right: -3px;
+            line-height: 11px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    }
 }
