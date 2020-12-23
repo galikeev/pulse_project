@@ -70,7 +70,7 @@ $(document).ready(function(){
                 phone: "required",
                 email: {
                     required: true,
-                    emal: true
+                    email: true
                 }
             },
             messages: {
@@ -99,7 +99,7 @@ $(document).ready(function(){
 
             return;
             
-            };
+            }
         $.ajax({
             type: "POST",
             url: "mailer/smart.php",
