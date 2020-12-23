@@ -234,6 +234,9 @@
         &__descr {
             font-size: 15px;
         }
+        label.error {
+            font-size: 11px;
+        }
     }
     .feed-form {
         input {
@@ -300,6 +303,9 @@
         &__descr {
             font-size: 12px;
             margin-top: 5px;
+        }
+        label.error {
+            font-size: 11px;
         }
     }
 }
