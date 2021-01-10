@@ -27,10 +27,7 @@
     }
     .feedback {
         &__wrapper {
-            justify-content: center;
-        }
-        &__item {
-            width: 510px;
+            padding-right: 0;
         }
     }
     .footer {
@@ -120,27 +117,7 @@
             line-height: 39px;
         }
     }
-    .feedback {
-        &__wrapper {
-            justify-content: center;
-            align-items: stretch;
-        }
-        &__item {
-            width: auto;
-            margin-left: 0;
-        }
-        &__subtitle {
-            margin-top: 10px;
-            text-align: center;
-        }
-        &__descr {
-            text-align: center;
-        }
-        &__text {
-            text-align: center;
-            font-size: 14px;
-        }
-    }
+
     .footer {
         height: 500px;
         &__map {
@@ -278,6 +255,27 @@
             font-size: 15px;
         }
     }
+    .feedback {
+        &__item {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__wrapper {
+            margin-left: 0;
+        }
+        &__subtitle {
+            text-align: center;
+            margin-top: 15px;
+        }
+        &__descr {
+            text-align: center;
+        }
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
     .footer {
         height: 250px;
         &__map {
@@ -286,6 +284,7 @@
         &__info {
             position: relative;
             height: 250px;
+            background-color: rgb(141, 141, 129);
         }
     }
     .modal {
@@ -308,4 +307,13 @@
             font-size: 11px;
         }
     }
+    .pageup {
+        bottom: 17px;
+        right: 17px;
+        width: 25px;
+        height: 25px;
+    }
+    // path {
+    //     fill: #ffffff
+    // }
 }

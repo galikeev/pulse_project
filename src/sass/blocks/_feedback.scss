@@ -1,22 +1,19 @@
 .feedback {
     padding-bottom: 70px;
-    &__wrapper {
+    &__item {
         display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        margin-top: 70px;
+        margin-top: 100px;
+        &:nth-child(2) {
+            margin-top: 70px;
+        }
     }
     &__img {
         width: 169px;
         height: 169px;
     }
-    &__item {
-        width: 650px;
+    &__wrapper {
         margin-left: 62px;
-        margin-bottom: 100px;
-        &:last-child {
-            margin-bottom: 0;
-        }
+        padding-right: 60px;
     }
     &__subtitle {
         color: #0d0d0d;
