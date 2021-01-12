@@ -293,8 +293,9 @@
         padding: 15px;
         &__close {
             font-size: 30px;
-            right: -3px;
+            right: 0;
             line-height: 11px;
+            top: 3px;
         }
         &__subtitle {
             font-size: 15px;
@@ -313,7 +314,4 @@
         width: 25px;
         height: 25px;
     }
-    // path {
-    //     fill: #ffffff
-    // }
 }
